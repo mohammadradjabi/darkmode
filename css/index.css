@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+    padding: 50px;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.change {
+    position: relative;
+    display: flex;
+    gap: 20px;
+    padding: 8px 9px;
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 20px;
+  text-align: center;
+  transition: all linear 400ms;
+  background-color: rgba(160, 160, 160, 0.568);
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.568) ;
+}
+.change span{
+    z-index: 50;
+    font-size: 20px;
+}
+.switch-bar{
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    transition: all linear 400ms;
+    box-shadow: 2px 2px 2px gray ;
+}
+.dark {
+  background-color: #222;
+  color: #e6e6e6;
+}
